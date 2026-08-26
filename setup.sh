@@ -1,6 +1,6 @@
 sudo apt update
 sudo apt install -y wget gpg apt-transport-https
-
+sudo apt install gnome-tweaks
 
 sudo install -m 0755 -d /etc/apt/keyrings
 wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor | sudo tee /etc/apt/keyrings/packages.microsoft.gpg > /dev/null
