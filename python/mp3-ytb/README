@@ -1,0 +1,29 @@
+# YouTube to MP3 Batch Downloader
+
+A lightweight Python script to batch-download audio from YouTube links in parallel using `yt-dlp` and `ffmpeg`.
+
+---
+
+## Prerequisites
+
+1. **Python 3.8+** installed on your system.
+2. **FFmpeg** installed and added to your system's PATH (required for audio conversion to MP3).
+   - **macOS (via Homebrew):** `brew install ffmpeg`
+   - **Ubuntu/Debian:** `sudo apt update && sudo apt install ffmpeg`
+   - **Windows:** Install via `winget install Gyan.FFmpeg` or download from [ffmpeg.org](https://ffmpeg.org/download.html).
+
+---
+
+## Setup Instructions
+
+### 1. Clone or Download the Project
+Ensure you have the project files in a single folder:
+- `downloader.py`
+- `links.txt`
+
+### 2. Create a Virtual Environment (Recommended)
+
+#### On macOS / Linux:
+```bash
+python3 -m venv venv
+source venv/bin/activate
